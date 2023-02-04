@@ -9,7 +9,7 @@ import './index.css';
 const url: string | undefined = process.env.URL;
 const container = document.getElementById('root')!;
 const root = createRoot(container);
-console.log ("Connect to server at: ", process.env.URL )
+console.log ("Connect to server at: ", process.env.REACT_APP_URL)
 
 root.render(
   <React.StrictMode>
